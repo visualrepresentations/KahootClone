@@ -1,0 +1,686 @@
+*   [33m92e7f85[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mit3_playerAnswersIan[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m Merge branch 'it3-UpdateQuizGameStateModified-Maihan' into 'master'
+[31m|[m[32m\[m  
+[31m|[m * [33m258d5eb[m[33m ([m[1;31morigin/it3-UpdateQuizGameStateModified-Maihan[m[33m)[m Make function logic match to state diagram
+[31m|[m * [33mc11a9d6[m Modify the Update quiz game status, added timer into it
+[31m|[m[31m/[m  
+*   [33md5f3a9e[m Merge branch 'iter3-test-GuestJoinGame' into 'master'
+[33m|[m[34m\[m  
+[33m|[m * [33mc8aea99[m[33m ([m[1;31morigin/iter3-test-GuestJoinGame[m[33m)[m test for adminQuizGuestJoinGame completed
+[33m|[m[33m/[m  
+*   [33mf9c0b3e[m[33m ([m[1;31morigin/it3_playerAnswersIan[m[33m, [m[1;32mmaster[m[33m)[m Merge branch 'iter3-test-getPLayerStates' into 'master'
+[35m|[m[36m\[m  
+[35m|[m * [33m5b6a81e[m[33m ([m[1;31morigin/iter3-test-getPLayerStates[m[33m)[m test for getPlayerStates completed
+* [36m|[m   [33m2e1a698[m Merge branch 'it3-GetQuizGameStatus-Maihan' into 'master'
+[36m|[m[1;32m\[m [36m\[m  
+[36m|[m [1;32m|[m[36m/[m  
+[36m|[m[36m/[m[1;32m|[m   
+[36m|[m * [33m1696c16[m[33m ([m[1;31morigin/it3-GetQuizGameStatus-Maihan[m[33m)[m Finished the get quiz game status part
+[36m|[m[36m/[m  
+*   [33md6faa49[m Merge branch 'iter3-feat-GETplayerStatus' into 'master'
+[1;33m|[m[1;34m\[m  
+[1;33m|[m * [33mcbd254e[m[33m ([m[1;31morigin/iter3-feat-GETplayerStatus[m[33m)[m function and HTTP of adminQuizGuestJoinGame and adminQuizGetPlayerStatusInGame completed
+[1;33m|[m * [33md4f976d[m add new function findGame
+[1;33m|[m * [33mf466347[m bug fix
+[1;33m|[m * [33m4c6baa9[m add new dependency for generate guest name
+[1;33m|[m *   [33m250d191[m Merge branch 'master' into iter3-feat-GETplayerStatus
+[1;33m|[m [1;35m|[m[1;33m\[m  
+[1;33m|[m [1;35m|[m[1;33m/[m  
+[1;33m|[m[1;33m/[m[1;35m|[m   
+* [1;35m|[m   [33m96ae3f0[m Merge branch 'it3_functionsIan' into 'master'
+[31m|[m[32m\[m [1;35m\[m  
+[31m|[m * [1;35m|[m [33m2014edb[m[33m ([m[1;31morigin/it3_functionsIan[m[33m, [m[1;32mit3_functionsIan[m[33m)[m Merged me and Maihan's interfaces
+[31m|[m * [1;35m|[m   [33m93eee0c[m Merge branch 'master' into 'it3_functionsIan'
+[31m|[m [33m|[m[31m\[m [1;35m\[m  
+[31m|[m [33m|[m[31m/[m [1;35m/[m  
+[31m|[m[31m/[m[33m|[m [1;35m|[m   
+* [33m|[m [1;35m|[m   [33m207f4e1[m Merge branch 'it3-QuizGameStateUpdate-Maihan' into 'master'
+[35m|[m[36m\[m [33m\[m [1;35m\[m  
+[35m|[m * [33m|[m [1;35m|[m [33m40ccaa5[m[33m ([m[1;31morigin/it3-QuizGameStateUpdate-Maihan[m[33m)[m Make the test pass
+[35m|[m * [33m|[m [1;35m|[m   [33m550a535[m Merge branch 'it3-QuizGameStateUpdate-Maihan' of nw-syd-gitlab.cseunsw.tech:COMP1531/25t3/groups/F14A_EAGLE/project-backend into it3-QuizGameStateUpdate-Maihan
+[35m|[m [1;31m|[m[1;32m\[m [33m\[m [1;35m\[m  
+[35m|[m [1;31m|[m * [33m|[m [1;35m|[m [33ma99467c[m Changes
+[35m|[m * [1;32m|[m [33m|[m [1;35m|[m [33m3553e16[m fixed the thumbnailUrl in test
+[35m|[m [1;32m|[m[1;32m/[m [33m/[m [1;35m/[m  
+[35m|[m * [33m|[m [1;35m|[m [33m17bb252[m Try to fix the bug
+[35m|[m * [33m|[m [1;35m|[m [33mf067af1[m Initally, finished the deleteQuizQuestion test,a function, a httpmethod and its test for update a quiz game state
+[35m|[m[35m/[m [33m/[m [1;35m/[m  
+[35m|[m * [1;35m|[m [33me973547[m fixed linting issue
+[35m|[m * [1;35m|[m [33m38f8cd7[m Heavily modified the quiz/game interfaces, removed redundant activeQuizzes section, some small fixes
+[35m|[m[35m/[m [1;35m/[m  
+* [1;35m|[m   [33meaec2a1[m Merge branch 'revert-6c6c91c1' into 'master'
+[1;33m|[m[1;34m\[m [1;35m\[m  
+[1;33m|[m * [1;35m|[m [33m7f1826f[m Revert "Merge branch 'revert-7db7e479' into 'master'"
+[1;33m|[m[1;33m/[m [1;35m/[m  
+* [1;35m|[m   [33m278c0df[m Merge branch 'iter3-feat-gamestart' into 'master'
+[1;35m|[m[1;36m\[m [1;35m\[m  
+[1;35m|[m * [1;35m|[m [33m33be03c[m[33m ([m[1;31morigin/iter3-feat-gamestart[m[33m)[m linting fixes to quiz
+[1;35m|[m * [1;35m|[m [33m17be949[m added commenting to deleteQUizQuestion
+* [1;36m|[m [1;35m|[m   [33m6c6c91c[m Merge branch 'revert-7db7e479' into 'master'
+[31m|[m[32m\[m [1;36m\[m [1;35m\[m  
+[31m|[m * [1;36m|[m [1;35m|[m [33m0ebe496[m Revert "Merge branch 'iter3-feat-gamestart' into 'master'"
+[31m|[m[31m/[m [1;36m/[m [1;35m/[m  
+* [1;36m|[m [1;35m|[m [33m7db7e47[m Merge branch 'iter3-feat-gamestart' into 'master'
+[33m|[m[1;36m\[m[1;36m|[m [1;35m|[m 
+[33m|[m * [1;35m|[m [33m7a45585[m Fixes to linting with gamestart test
+[33m|[m * [1;35m|[m [33m9b0ea4d[m Bug fixing for backend
+[33m|[m * [1;35m|[m [33mcecd3db[m Changed clear to reflect new requirements
+[33m|[m * [1;35m|[m [33mde38121[m Changed generate colour to work
+[33m|[m * [1;35m|[m [33m1b4dcda[m Changed import to not have .js for non js file
+[33m|[m * [1;35m|[m [33md6a87c4[m added relevant testing for adminQuizGameStart
+[33m|[m * [1;35m|[m [33m2916c60[m general linting
+[33m|[m * [1;35m|[m [33m6eeb20d[m added server route for gamestart
+[33m|[m * [1;35m|[m [33m0847ec7[m added logic function
+* [34m|[m [1;35m|[m   [33m3d6485b[m Merge branch 'it3_encryptionIan' into 'master'
+[34m|[m[36m\[m [34m\[m [1;35m\[m  
+[34m|[m [36m|[m[34m/[m [1;35m/[m  
+[34m|[m[34m/[m[36m|[m [1;35m|[m   
+[34m|[m * [1;35m|[m [33m20c0d1b[m[33m ([m[1;31morigin/it3_encryptionIan[m[33m, [m[1;32mit3_encryptionIan[m[33m)[m Added password hashing
+[34m|[m * [1;35m|[m [33mc200974[m Added persistence
+[34m|[m[34m/[m [1;35m/[m  
+* [1;35m|[m   [33m768c824[m Merge branch 'iter3-feat-quizStatus' into 'master'
+[1;31m|[m[1;32m\[m [1;35m\[m  
+[1;31m|[m * [1;35m|[m [33mfe90dc9[m Added http wrapper for adminQuizGames
+[1;31m|[m * [1;35m|[m [33me122738[m Added logic function for adminQuizGames
+[1;31m|[m * [1;35m|[m [33m95c99bc[m Added testing for adminQuizGames
+[1;31m|[m[1;31m/[m [1;35m/[m  
+* [1;35m|[m   [33m361e0bf[m Merge branch 'it3_DeleteQuizQuestionModified_Maihan' into 'master'
+[1;33m|[m[1;34m\[m [1;35m\[m  
+[1;33m|[m * [1;35m|[m [33mdf8cc00[m[33m ([m[1;31morigin/it3_DeleteQuizQuestionModified_Maihan[m[33m)[m Fixed the Merge request issue
+[1;33m|[m[1;33m/[m [1;35m/[m  
+* [1;35m|[m   [33m6ec208a[m Merge branch 'it3_newfunctions_Maihan' into 'master'
+[1;35m|[m[1;36m\[m [1;35m\[m  
+[1;35m|[m * [1;35m|[m [33me0ccece[m[33m ([m[1;31morigin/it3_newfunctions_Maihan[m[33m)[m revert merge request
+* [1;36m|[m [1;35m|[m   [33m3d431ae[m Merge branch 'revert-cc33d126' into 'master'
+[31m|[m[32m\[m [1;36m\[m [1;35m\[m  
+[31m|[m * [1;36m|[m [1;35m|[m [33md6dc7a2[m Revert "Merge branch 'it3_newfunctions_Maihan' into 'master'"
+[31m|[m[31m/[m [1;36m/[m [1;35m/[m  
+* [1;36m|[m [1;35m|[m [33mcc33d12[m Merge branch 'it3_newfunctions_Maihan' into 'master'
+[33m|[m[1;36m\[m[1;36m|[m [1;35m|[m 
+[33m|[m * [1;35m|[m [33mdc21e61[m Fixed the lint issues
+[33m|[m * [1;35m|[m [33m566cc65[m Finished the deletequizquestion function and httpmethod, adding game interface into interfaces.ts
+* [34m|[m [1;35m|[m   [33m6c9d222[m Merge branch 'it3_persistenceIan' into 'master'
+[34m|[m[36m\[m [34m\[m [1;35m\[m  
+[34m|[m [36m|[m[34m/[m [1;35m/[m  
+[34m|[m[34m/[m[36m|[m [1;35m|[m   
+[34m|[m * [1;35m|[m [33m31a2f67[m[33m ([m[1;31morigin/it3_persistenceIan[m[33m, [m[1;32mit3_persistenceIan[m[33m)[m Added persistence and did thorough testing with front end
+[34m|[m[34m/[m [1;35m/[m  
+* [1;35m|[m   [33m3b88349[m Merge branch 'iter3-convert-errorConversion' into 'master'
+[1;31m|[m[1;32m\[m [1;35m\[m  
+[1;31m|[m * [1;35m\[m   [33ma7b3c9e[m[33m ([m[1;31morigin/iter3-convert-errorConversion[m[33m, [m[1;32miter3-convert-errorConversion[m[33m)[m Merge branch 'master' into iter3-convert-errorConversion
+[1;31m|[m [1;33m|[m[1;31m\[m [1;35m\[m  
+[1;31m|[m [1;33m|[m[1;31m/[m [1;35m/[m  
+[1;31m|[m[1;31m/[m[1;33m|[m [1;35m|[m   
+* [1;33m|[m [1;35m|[m   [33m53bdea7[m Merge branch 'It2_reflection_Max' into 'master'
+[1;35m|[m[1;36m\[m [1;33m\[m [1;35m\[m  
+[1;35m|[m * [1;33m|[m [1;35m|[m [33m416f863[m Added reflection
+[1;35m|[m[1;35m/[m [1;33m/[m [1;35m/[m  
+* [1;33m|[m [1;35m|[m   [33mdf8bf38[m Merge updated starter code into 'master' branch. See MR for details.
+[31m|[m[32m\[m [1;33m\[m [1;35m\[m  
+[31m|[m * [1;33m|[m [1;35m|[m [33m7b5465e[m[33m ([m[1;31morigin/update-67dc152df9f9497a7b14f948d332a6d9272cec6c[m[33m)[m Task update 67dc152df9f9497a7b14f948d332a6d9272cec6c
+[31m|[m * [1;33m|[m [1;35m|[m   [33m67dc152[m Merge branch 'eslint-fix' into 'master'
+[31m|[m [33m|[m[34m\[m [1;33m\[m [1;35m\[m  
+[31m|[m [33m|[m * [1;33m|[m [1;35m|[m [33m73eb879[m Use typescript-eslint: no-unused-vars
+[31m|[m [33m|[m[33m/[m [1;33m/[m [1;35m/[m  
+* [33m|[m [1;33m|[m [1;35m|[m   [33mb2ca648[m Merge branch 'revert-e585d867' into 'master'
+[35m|[m[36m\[m [33m\[m [1;33m\[m [1;35m\[m  
+[35m|[m * [33m|[m [1;33m|[m [1;35m|[m [33mb877b28[m Revert "Merge branch 'iteration3_fix_linting' into 'master'"
+[35m|[m[35m/[m [33m/[m [1;33m/[m [1;35m/[m  
+* [33m|[m [1;33m|[m [1;35m|[m   [33me585d86[m Merge branch 'iteration3_fix_linting' into 'master'
+[1;31m|[m[1;32m\[m [33m\[m [1;33m\[m [1;35m\[m  
+* [1;32m\[m [33m\[m [1;33m\[m [1;35m\[m   [33mfd58a49[m Merge branch 'Iteration2-reflectionbranch-BRIAN' into 'master'
+[1;33m|[m[1;34m\[m [1;32m\[m [33m\[m [1;33m\[m [1;35m\[m  
+[1;33m|[m * [1;32m|[m [33m|[m [1;33m|[m [1;35m|[m [33m7b4af62[m[33m ([m[1;31morigin/Iteration2-reflectionbranch-BRIAN[m[33m)[m reflection
+* [1;34m|[m [1;32m|[m [33m|[m [1;33m|[m [1;35m|[m   [33m8f5f797[m Merge branch 'it2_review' into 'master'
+[1;35m|[m[1;36m\[m [1;34m\[m [1;32m\[m [33m\[m [1;33m\[m [1;35m\[m  
+[1;35m|[m * [1;34m|[m [1;32m|[m [33m|[m [1;33m|[m [1;35m|[m [33m8d8e221[m[33m ([m[1;31morigin/it2_review[m[33m, [m[1;32mit2_review[m[33m)[m Did team reflection and modified the dataStore to fit Iteration 3 criteria
+[1;35m|[m[1;35m/[m [1;34m/[m [1;32m/[m [33m/[m [1;33m/[m [1;35m/[m  
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [1;35m|[m [33mc6c11cf[m Fixed some bugs with the code/testing, fixed the linting
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [1;35m|[m [33m18e9e81[m Changed error type for adminUserdetails
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [1;35m|[m [33mb3e0f61[m Fixed the lint issue
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [1;35m|[m [33mfe5f65c[m Delete the useless notes
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [1;35m|[m [33mfbab1b3[m Fixed the deleteQuizQuestion.test.ts for the issue which is the test cannot run
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [1;35m|[m [33m83440d5[m Added interfaces and updated datastore
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [1;35m|[m [33m7a41380[m Fixed typing errors and other cooked stuff - Josh
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [1;35m|[m [33m7e2ded7[m Manually added the linting because our master was updated and we didn't want the outdated changes
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [1;35m|[m   [33mc5da738[m fix merge conflict
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [31m|[m[32m\[m [1;35m\[m  
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [31m|[m * [1;35m|[m [33mff0c8d6[m Did errorconversion for clear & fixed misunderstanding for updatequizquestion
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [31m|[m * [1;35m|[m [33mba87227[m fixed misunderstanding in quiz.ts regarding session
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [31m|[m * [1;35m|[m   [33m7a97592[m Merge branch 'iter3-convert-errorConversion' of nw-syd-gitlab.cseunsw.tech:COMP1531/25t3/groups/F14A_EAGLE/project-backend into iter3-convert-errorConversion
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [31m|[m [33m|[m[34m\[m [1;35m\[m  
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [31m|[m * [34m|[m [1;35m|[m [33m43782e6[m reverse misunderstanding regarding sessino for userdetails
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [34m|[m [34m|[m [1;35m|[m [33m9afb645[m change to catch error throw
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [34m|[m [34m|[m [1;35m|[m [33m0e3fdd3[m fix adminUserDetails
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [34m|[m [34m|[m[34m/[m [1;35m/[m  
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [34m|[m[34m/[m[34m|[m [1;35m|[m   
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [34m|[m [1;35m|[m [33mde0cd60[m Merge branch 'iter3-convert-errorConversion' of nw-syd-gitlab.cseunsw.tech:COMP1531/25t3/groups/F14A_EAGLE/project-backend into iter3-convert-errorConversion
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [35m|[m[34m\[m[34m|[m [1;35m|[m 
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [35m|[m * [1;35m|[m [33m177e080[m Configured test files for clear
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [36m|[m [1;35m|[m [33mea0050f[m fix linting
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [36m|[m [1;35m|[m [33m48daec9[m error fixed
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;31m|[m[36m\[m[36m|[m [1;35m|[m 
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;31m|[m * [1;35m|[m [33m9eb793f[m fixed errors regarding session & error response
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;31m|[m * [1;35m|[m [33m6c01c06[m configured http routes to be more compliant added better edge cases
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;31m|[m * [1;35m|[m [33m21dc3b8[m configured adminUserDetails to work with it3 specs
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;31m|[m * [1;35m|[m [33m6975b10[m configured updatequizquestion to throw error
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;31m|[m * [1;35m|[m [33m969f748[m Changed adminQuizList to match it3 spec
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;31m|[m * [1;35m|[m   [33mdbf68e4[m resolve merge conflict
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;31m|[m [1;33m|[m[1;34m\[m [1;35m\[m  
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;31m|[m * [1;34m|[m [1;35m|[m [33m8b9802b[m Configured adminUserDetails to throw error
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;31m|[m * [1;34m|[m [1;35m|[m [33m0a84150[m skipped test for clear which req dependencies
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;31m|[m * [1;34m|[m [1;35m|[m [33m6a87f38[m Skipped tests which req dependency in adminUserDetails
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;31m|[m * [1;34m|[m [1;35m|[m [33mbedaf5a[m Creation of updateQuizQuestion test to adhere to spec
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;31m|[m * [1;34m|[m [1;35m|[m [33m226a3df[m configured adminQuizList test to work with it3 spec
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;31m|[m * [1;34m|[m [1;35m|[m [33m17cfded[m configured clear http wrapper test according to it3 spec
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;31m|[m * [1;34m|[m [1;35m|[m [33m79536c1[m configured http wrapper tests to fit with new it3 spec
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;31m|[m * [1;34m|[m [1;35m|[m [33m544557f[m configured adminUserDetails test to comply with spec
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;31m|[m * [1;34m|[m [1;35m|[m [33m25e0594[m Converted http routes to catch error according to spec
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;31m|[m * [1;34m|[m [1;35m|[m [33mad13c4d[m Converted adminUserDetails to throw error
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;31m|[m * [1;34m|[m [1;35m|[m [33m79e16b2[m Converted clear according to it3 spec
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;31m|[m * [1;34m|[m [1;35m|[m [33m96f1bc0[m Converted adminQuizList to throw error
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [1;34m|[m [1;34m|[m [1;35m|[m [33m6d52c84[m error fix
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;34m|[m [1;34m|[m[1;34m/[m [1;35m/[m  
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;34m|[m[1;34m/[m[1;34m|[m [1;35m|[m   
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [1;34m|[m [1;35m|[m [33m7f8e582[m fix linting
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [1;34m|[m [1;35m|[m [33m30baa3d[m fix linting
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [1;34m|[m [1;35m|[m [33m173bb1b[m all error catch conversion completed
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [1;34m|[m [1;35m|[m [33mee92c9b[m fix lint
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [1;34m|[m [1;35m|[m [33mafc6d38[m Done adminQuizNameUpdate and adminQuizQuestionCreate.
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [1;34m|[m [1;35m|[m [33m6d82284[m make my three http method to use catch
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [1;34m|[m [1;35m|[m   [33m63bab33[m Merge branch 'iter3-convert-errorConversion' of nw-syd-gitlab.cseunsw.tech:COMP1531/25t3/groups/F14A_EAGLE/project-backend into iter3-convert-errorConversion
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;35m|[m[1;36m\[m [1;34m\[m [1;35m\[m  
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;35m|[m * [1;34m\[m [1;35m\[m   [33m3260ea2[m Merge branch 'iter3-convert-errorConversion' of nw-syd-gitlab.cseunsw.tech:COMP1531/25t3/groups/F14A_EAGLE/project-backend into iter3-convert-errorConversion
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;35m|[m [31m|[m[32m\[m [1;34m\[m [1;35m\[m  
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;35m|[m * [32m|[m [1;34m|[m [1;35m|[m [33m3abfabe[m deleted a import whihch not in use
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;35m|[m * [32m|[m [1;34m|[m [1;35m|[m [33m7c2757b[m deleted a import whihch not in use
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;35m|[m * [32m|[m [1;34m|[m [1;35m|[m [33m6851d91[m modified functions to catch error throw
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;35m|[m * [32m|[m [1;34m|[m [1;35m|[m [33mbb5e93b[m modified adminQuizList
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;35m|[m * [32m|[m [1;34m|[m [1;35m|[m   [33m2e1dca6[m Merge branch 'iter3-convert-errorConversion' of nw-syd-gitlab.cseunsw.tech:COMP1531/25t3/groups/F14A_EAGLE/project-backend into iter3-convert-errorConversion
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;35m|[m [33m|[m[34m\[m [32m\[m [1;34m\[m [1;35m\[m  
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;35m|[m * [34m|[m [32m|[m [1;34m|[m [1;35m|[m [33m1859de7[m converted to catch errors
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [34m|[m [34m|[m [32m|[m [1;34m|[m [1;35m|[m [33m314d587[m Convert to throw error for tests
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [32m|[m [34m|[m[32m_[m[34m|[m[32m/[m [1;34m/[m [1;35m/[m  
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [32m|[m[32m/[m[34m|[m [34m|[m [1;34m|[m [1;35m|[m   
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [34m|[m [34m|[m [1;34m|[m [1;35m|[m [33m3376da3[m Convert my function for return error to throw the error
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [34m|[m [34m|[m[34m/[m [1;34m/[m [1;35m/[m  
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [34m|[m[34m/[m[34m|[m [1;34m|[m [1;35m|[m   
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [34m|[m [1;34m|[m [1;35m|[m   [33m51f1487[m Merge branch 'error_conversion' into 'iter3-convert-errorConversion'
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [34m|[m[36m\[m [34m\[m [1;34m\[m [1;35m\[m  
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [34m|[m [36m|[m[34m/[m [1;34m/[m [1;35m/[m  
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [34m|[m[34m/[m[36m|[m [1;34m|[m [1;35m|[m   
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [34m|[m * [1;34m|[m [1;35m|[m   [33mc697f15[m Merge branch 'iter3-convert-errorConversion' into 'error_conversion'
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [34m|[m [1;31m|[m[34m\[m [1;34m\[m [1;35m\[m  
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [34m|[m [1;31m|[m[34m/[m [1;34m/[m [1;35m/[m  
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [34m|[m[34m/[m[1;31m|[m [1;34m|[m [1;35m|[m   
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [1;31m|[m [1;34m|[m [1;35m|[m [33mea80abe[m converted test to catch error throw
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [1;31m|[m [1;34m|[m [1;35m|[m [33m92ae1dd[m converted to check error return by catch throw
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [1;31m|[m [1;34m|[m [1;35m|[m [33m0985718[m converted HTTPs to catch error thrown
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [1;31m|[m [1;34m|[m [1;35m|[m [33m464cf30[m modified adminQuizRemove to throw error when occured
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [1;31m|[m [1;34m|[m [1;35m|[m [33ma05f771[m modified to throw error
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;34m|[m [1;31m|[m[1;34m/[m [1;35m/[m  
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;34m|[m[1;34m/[m[1;31m|[m [1;35m|[m   
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [1;31m|[m [1;35m|[m [33me51d455[m modified HTTP to catch error throw
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [1;31m|[m [1;35m|[m [33m4cd543d[m modified findSession to throw error
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;32m|[m * [1;35m|[m [33ma8c813d[m[33m ([m[1;31morigin/error_conversion[m[33m, [m[1;32merror_conversion[m[33m)[m Converted my 3 functions (authRegister, userDetailsUpdate, userPasswordUpdate) to use throw, converted helper.ts to use throw, converted my http calls to use throw. Also converted my functions tests to handle throw
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;32m|[m[1;32m/[m [1;35m/[m  
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [1;35m|[m [33m4c943c6[m[33m ([m[1;32mIteration_3[m[33m)[m fix linting
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [1;35m|[m [33m8578a71[m problem solved
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;32m|[m *   [33mf02ef16[m solve merge conflict
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;32m|[m [1;33m|[m[1;32m\[m  
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;32m|[m [1;33m|[m[1;32m/[m  
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;32m|[m[1;32m/[m[1;33m|[m   
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m * [1;33m|[m   [33md8fd4b8[m Merge branch 'iteration3_fix_linting' into 'Iteration_3'
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;35m|[m[1;36m\[m [1;33m\[m  
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;35m|[m * [1;33m|[m [33m13db9d0[m Converted adminQuizRemove
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;35m|[m * [1;33m|[m [33m0edfa80[m Converted adminQuizInfo to ts
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;35m|[m * [1;33m|[m [33m18812b2[m Converted adminQuizName to ts
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m [1;35m|[m * [1;33m|[m [33me819846[m Conversion of adminAuthLogin to ts
+[1;35m|[m [1;34m|[m [1;32m|[m [33m|[m[1;32m_[m[1;35m|[m[1;32m/[m [1;33m/[m  
+[1;35m|[m [1;34m|[m [1;32m|[m[1;32m/[m[33m|[m [1;35m|[m [1;33m|[m   
+[1;35m|[m [1;34m|[m * [33m|[m [1;35m|[m [1;33m|[m [33maa2ac98[m Removed session
+[1;35m|[m [1;34m|[m * [33m|[m [1;35m|[m [1;33m|[m [33m10b92e7[m removed tls
+[1;35m|[m [1;34m|[m * [33m|[m [1;35m|[m [1;33m|[m [33maa1ae76[m Lint fixes in quiz.ts
+[1;35m|[m [1;34m|[m [1;36m|[m [33m|[m [1;35m|[m * [33maadd49a[m modified updateThumbnail to catch error
+[1;35m|[m [1;34m|[m [1;36m|[m [33m|[m [1;35m|[m[1;35m/[m  
+[1;35m|[m [1;34m|[m [1;36m|[m [33m|[m * [33mdf077f1[m Merge branch 'Iteration3-fixes-briantsconversion' into 'Iteration_3'
+[1;35m|[m [1;34m|[m [1;36m|[m [33m|[m[1;36m/[m[32m|[m 
+[1;35m|[m [1;34m|[m [1;36m|[m[1;36m/[m[33m|[m [32m|[m 
+[1;35m|[m [1;34m|[m [1;36m|[m [33m|[m * [33m3b9ea38[m pipeline issues for multiple files
+[1;35m|[m [1;34m|[m [1;36m|[m [33m|[m * [33mfeaf073[m Conv of adminUserDetails it1 to ts
+[1;35m|[m [1;34m|[m * [33m|[m [32m|[m   [33mbc41583[m Merge branch 'Iteration3_fix_tsconv' into 'Iteration_3'
+[1;35m|[m [1;34m|[m [33m|[m[34m\[m [33m\[m [32m\[m  
+[1;35m|[m [1;34m|[m [33m|[m * [33m|[m [32m|[m [33m2b013ac[m Conversion of adminUserDetails to ts
+[1;35m|[m [1;34m|[m [33m|[m * [33m|[m [32m|[m [33m58ed3c9[m conversion of clear to ts
+[1;35m|[m [1;34m|[m [33m|[m * [33m|[m [32m|[m [33m30b9286[m conversion of adminQuizList test into ts
+[1;35m|[m [1;34m|[m * [34m|[m [33m|[m [32m|[m   [33m88d4226[m Merge branch 'iter3-feat-GETplayerStatus' into Iteration_3
+[1;35m|[m [1;34m|[m [32m|[m[36m\[m [34m\[m [33m\[m [32m\[m  
+[1;35m|[m [1;34m|[m [32m|[m [36m|[m[32m_[m[34m|[m[32m_[m[33m|[m[32m/[m  
+[1;35m|[m [1;34m|[m [32m|[m[32m/[m[36m|[m [34m|[m [33m|[m   
+[1;35m|[m [1;34m|[m [32m|[m * [34m|[m [33m|[m [33m2ecbdaf[m modified HTTP adminQuizInfo to catch error
+[1;35m|[m [1;34m|[m [32m|[m * [34m|[m [33m|[m [33mdfa64fc[m modified adminQuizRemove and adminQuizInfo to throw an error
+[1;35m|[m [1;34m|[m [32m|[m * [34m|[m [33m|[m [33md77b899[m modified findSession to throw an error
+[1;35m|[m [1;34m|[m [32m|[m [34m|[m[34m/[m [33m/[m  
+[1;35m|[m [1;34m|[m * [34m/[m [33m/[m [33md146117[m Fixed final linting error
+[1;35m|[m [1;34m|[m [34m|[m[34m/[m [33m/[m  
+[1;35m|[m [1;34m|[m * [33m/[m [33m3068bad[m Fixed all but one of the lint issues
+[1;35m|[m [1;34m|[m[1;35m/[m [33m/[m  
+[1;35m|[m[1;35m/[m[1;34m|[m [33m|[m   
+* [1;34m|[m [33m|[m   [33m54b1949[m Merge branch 'It2_reflectionIan' into 'master'
+[1;31m|[m[1;32m\[m [1;34m\[m [33m\[m  
+[1;31m|[m * [1;34m|[m [33m|[m [33mce89e4e[m[33m ([m[1;31morigin/It2_reflectionIan[m[33m, [m[1;32mIt2_reflectionIan[m[33m)[m Did my iteration 2 reflection
+* [1;32m|[m [1;34m|[m [33m|[m   [33m79d3f72[m Merge branch 'iter2/refection/z5609448' into 'master'
+[1;33m|[m[1;34m\[m [1;32m\[m [1;34m\[m [33m\[m  
+[1;33m|[m * [1;32m\[m [1;34m\[m [33m\[m   [33mabdd5df[m[33m ([m[1;31morigin/iter2/refection/z5609448[m[33m)[m Merge branch 'master' into 'iter2/refection/z5609448'
+[1;33m|[m [1;35m|[m[1;33m\[m [1;32m\[m [1;34m\[m [33m\[m  
+[1;33m|[m [1;35m|[m[1;33m/[m [1;32m/[m [1;34m/[m [33m/[m  
+[1;33m|[m[1;33m/[m[1;35m|[m [1;32m|[m [1;34m|[m [33m|[m   
+* [1;35m|[m [1;32m|[m [1;34m|[m [33m|[m   [33md5f90f9[m Merge branch 'Yutian-reflection' into 'master'
+[1;32m|[m[32m\[m [1;35m\[m [1;32m\[m [1;34m\[m [33m\[m  
+[1;32m|[m [32m|[m[1;32m_[m[1;35m|[m[1;32m/[m [1;34m/[m [33m/[m  
+[1;32m|[m[1;32m/[m[32m|[m [1;35m|[m [1;34m|[m [33m|[m   
+[1;32m|[m * [1;35m|[m [1;34m|[m [33m|[m [33m420a12b[m reflection complete
+[1;32m|[m[1;32m/[m [1;35m/[m [1;34m/[m [33m/[m  
+[1;32m|[m * [1;34m|[m [33m|[m [33ma9f4405[m Finish the reflection
+[1;32m|[m * [1;34m|[m [33m|[m [33m54dfbff[m Adding name and zid
+[1;32m|[m * [1;34m|[m [33m|[m [33mbdbeb2e[m Adding my personal reflection
+[1;32m|[m[1;32m/[m [1;34m/[m [33m/[m  
+* [1;34m|[m [33m|[m   [33m4813d60[m Merge updated starter code into 'master' branch. See MR for details.
+[33m|[m[34m\[m [1;34m\[m [33m\[m  
+[33m|[m * [1;34m|[m [33m|[m [33m5c02109[m[33m ([m[1;31morigin/update-c833d8934cad4400336eed0ec3177ab6f3238245[m[33m)[m Task update c833d8934cad4400336eed0ec3177ab6f3238245
+[33m|[m [33m|[m [1;34m|[m[33m/[m  
+[33m|[m [33m|[m[33m/[m[1;34m|[m   
+[33m|[m * [1;34m|[m [33mc833d89[m Iteration 3 ready
+* [34m|[m [1;34m|[m   [33m9cd0f17[m[33m ([m[1;31morigin/iteration2-submission[m[33m, [m[1;31morigin/iter2-submission[m[33m)[m Merge branch 'Iteration_2' into 'master'
+[35m|[m[1;34m\[m [34m\[m [1;34m\[m  
+[35m|[m [1;34m|[m [34m|[m[1;34m/[m  
+[35m|[m [1;34m|[m[1;34m/[m[34m|[m   
+[35m|[m * [34m|[m [33mdc51855[m final
+[35m|[m * [34m|[m   [33m989d68a[m Merge branch 'Iteration_2_Brian_Fixes' into 'Iteration_2'
+[35m|[m [1;31m|[m[1;32m\[m [34m\[m  
+[35m|[m [1;31m|[m * [34m\[m   [33mec0cba3[m Merge branch 'Iteration_2' into 'Iteration_2_Brian_Fixes'
+[35m|[m [1;31m|[m [1;33m|[m[1;31m\[m [34m\[m  
+[35m|[m [1;31m|[m [1;33m|[m[1;31m/[m [34m/[m  
+[35m|[m [1;31m|[m[1;31m/[m[1;33m|[m [34m|[m   
+[35m|[m * [1;33m|[m [34m|[m [33m8897598[m Added adminQuizNameUpdate.test.ts
+[35m|[m * [1;33m|[m [34m|[m   [33m2bb9ae5[m Merge branch 'It2_fixingEverything' into 'Iteration_2'
+[35m|[m [1;35m|[m[1;36m\[m [1;33m\[m [34m\[m  
+[35m|[m [1;35m|[m * [1;33m\[m [34m\[m   [33mddcca57[m Merge branch 'Iteration_2' into 'It2_fixingEverything'
+[35m|[m [1;35m|[m [31m|[m[1;35m\[m [1;33m\[m [34m\[m  
+[35m|[m [1;35m|[m [31m|[m[1;35m/[m [1;33m/[m [34m/[m  
+[35m|[m [1;35m|[m[1;35m/[m[31m|[m [1;33m|[m [34m|[m   
+[35m|[m * [31m|[m [1;33m|[m [34m|[m [33m0b07d23[m Added adminAuthLogin.test.ts
+[35m|[m * [31m|[m [1;33m|[m [34m|[m   [33m2412a87[m Merge branch 'Iteration_2' of nw-syd-gitlab.cseunsw.tech:COMP1531/25t3/groups/F14A_EAGLE/project-backend into Iteration_2
+[35m|[m [33m|[m[34m\[m [31m\[m [1;33m\[m [34m\[m  
+[35m|[m [33m|[m * [31m\[m [1;33m\[m [34m\[m   [33m53b8a3b[m Merge branch 'Iteration_2_adminUserDetails_brian' into 'Iteration_2'
+[35m|[m [33m|[m [35m|[m[36m\[m [31m\[m [1;33m\[m [34m\[m  
+[35m|[m [33m|[m [35m|[m * [31m|[m [1;33m|[m [34m|[m [33mc403dec[m added test for adminUserDetails
+[35m|[m [33m|[m [35m|[m[35m/[m [31m/[m [1;33m/[m [34m/[m  
+[35m|[m * [35m|[m [31m|[m [1;33m|[m [34m|[m   [33mb4f43bb[m Merge branch 'it2_httpTests_Maihan' into Iteration_2
+[35m|[m [35m|[m[1;32m\[m [35m\[m [31m\[m [1;33m\[m [34m\[m  
+[35m|[m [35m|[m [1;32m|[m[35m/[m [31m/[m [1;33m/[m [34m/[m  
+[35m|[m [35m|[m[35m/[m[1;32m|[m [31m|[m [1;33m|[m [34m|[m   
+[35m|[m [35m|[m * [31m|[m [1;33m|[m [34m|[m [33mad781c8[m[33m ([m[1;31morigin/it2_httpTests_Maihan[m[33m)[m Fixed about sytle problems
+[35m|[m * [1;32m|[m [31m|[m [1;33m|[m [34m|[m   [33m0f4f881[m Merge branch 'Iteration_2' of nw-syd-gitlab.cseunsw.tech:COMP1531/25t3/groups/F14A_EAGLE/project-backend into Iteration_2
+[35m|[m [1;33m|[m[1;34m\[m [1;32m\[m [31m\[m [1;33m\[m [34m\[m  
+[35m|[m [1;33m|[m * [1;32m\[m [31m\[m [1;33m\[m [34m\[m   [33m413eaf8[m Merge branch 'Iteration_2_Brian_Fixes' into 'Iteration_2'
+[35m|[m [1;33m|[m [1;35m|[m[1;36m\[m [1;32m\[m [31m\[m [1;33m\[m [34m\[m  
+[35m|[m * [1;35m|[m [1;36m|[m [1;32m|[m [31m|[m [1;33m|[m [34m|[m [33m666bf03[m Merge branch 'Iteration_2' of nw-syd-gitlab.cseunsw.tech:COMP1531/25t3/groups/F14A_EAGLE/project-backend into Iteration_2
+[35m|[m [31m|[m[1;35m\[m[1;35m|[m [1;36m|[m [1;32m|[m [31m|[m [1;33m|[m [34m|[m 
+[35m|[m [31m|[m * [1;36m|[m [1;32m|[m [31m|[m [1;33m|[m [34m|[m   [33mb2dcfad[m fixed adminQuizQuestionCreate function
+[35m|[m [31m|[m [33m|[m[34m\[m [1;36m\[m [1;32m\[m [31m\[m [1;33m\[m [34m\[m  
+[35m|[m [31m|[m * [34m|[m [1;36m|[m [1;32m|[m [31m|[m [1;33m|[m [34m|[m [33m81560bb[m fixed adminQuizQuestionCreate
+[35m|[m * [34m|[m [34m|[m [1;36m|[m [1;32m|[m [31m|[m [1;33m|[m [34m|[m   [33mfb6f23d[m Merge branch 'it2_httpTests_Maihan' into Iteration_2
+[35m|[m [35m|[m[1;32m\[m [34m\[m [34m\[m [1;36m\[m [1;32m\[m [31m\[m [1;33m\[m [34m\[m  
+[35m|[m [35m|[m [1;32m|[m [34m|[m[1;32m_[m[34m|[m[1;32m_[m[1;36m|[m[1;32m/[m [31m/[m [1;33m/[m [34m/[m  
+[35m|[m [35m|[m [1;32m|[m[1;32m/[m[34m|[m [34m|[m [1;36m|[m [31m|[m [1;33m|[m [34m|[m   
+[35m|[m [35m|[m * [34m|[m [34m|[m [1;36m|[m [31m|[m [1;33m|[m [34m|[m [33m82d377f[m Remove console.log rubbish
+[35m|[m [35m|[m * [34m|[m [34m|[m [1;36m|[m [31m|[m [1;33m|[m [34m|[m [33m6e699a1[m Fixed test for delete quiz question to let every test to pass
+[35m|[m [35m|[m * [34m|[m [34m|[m [1;36m|[m [31m|[m [1;33m|[m [34m|[m [33ma475d84[m need checkout to iter2 branch
+[35m|[m * [36m|[m [34m|[m [34m|[m [1;36m|[m [31m|[m [1;33m|[m [34m|[m   [33m96bac6b[m Merge branch 'Iteration_2' of nw-syd-gitlab.cseunsw.tech:COMP1531/25t3/groups/F14A_EAGLE/project-backend into Iteration_2
+[35m|[m [1;31m|[m[1;32m\[m [36m\[m [34m\[m [34m\[m [1;36m\[m [31m\[m [1;33m\[m [34m\[m  
+[35m|[m * [1;32m\[m [36m\[m [34m\[m [34m\[m [1;36m\[m [31m\[m [1;33m\[m [34m\[m   [33mf465de9[m Merge branch 'it2_httpTests_Maihan' into Iteration_2
+[35m|[m [34m|[m[36m\[m [1;32m\[m [36m\[m [34m\[m [34m\[m [1;36m\[m [31m\[m [1;33m\[m [34m\[m  
+[35m|[m [34m|[m [36m|[m [1;32m|[m[36m/[m [34m/[m [34m/[m [1;36m/[m [31m/[m [1;33m/[m [34m/[m  
+[35m|[m [34m|[m [36m|[m[36m/[m[1;32m|[m [34m/[m [34m/[m [1;36m/[m [31m/[m [1;33m/[m [34m/[m   
+[35m|[m [34m|[m [36m|[m[34m_[m[1;32m|[m[34m/[m [34m/[m [1;36m/[m [31m/[m [1;33m/[m [34m/[m    
+[35m|[m [34m|[m[34m/[m[36m|[m [1;32m|[m [34m|[m [1;36m|[m [31m|[m [1;33m|[m [34m|[m     
+[35m|[m [34m|[m * [1;32m|[m [34m|[m [1;36m|[m [31m|[m [1;33m|[m [34m|[m [33m8edd801[m Added test for delete quiz question http method
+[35m|[m [34m|[m [1;34m|[m [1;32m|[m [34m|[m [1;36m|[m * [1;33m|[m [34m|[m [33m13c4d46[m Fixed like 6-7 tests that were failing either due to not being updated or being written incorrectly
+[35m|[m [34m|[m [1;34m|[m [1;32m|[m [34m|[m[1;32m_[m[1;36m|[m[1;32m/[m [1;33m/[m [34m/[m  
+[35m|[m [34m|[m [1;34m|[m [1;32m|[m[1;32m/[m[34m|[m [1;36m|[m [1;33m|[m [34m|[m   
+[35m|[m [34m|[m [1;34m|[m [1;32m|[m [34m|[m [1;36m|[m * [34m|[m [33ma4dfdec[m Fixed testing for clear
+[35m|[m [34m|[m [1;34m|[m [1;32m|[m [34m|[m [1;36m|[m[1;36m/[m [34m/[m  
+[35m|[m [34m|[m [1;34m|[m [1;32m|[m [34m|[m * [34m|[m [33mb8fb021[m added reset session
+[35m|[m [34m|[m [1;34m|[m [1;32m|[m [34m|[m * [34m|[m [33m87619e3[m fixes to adminQUizQuestionCreate
+[35m|[m [34m|[m [1;34m|[m [1;32m|[m [34m|[m[34m/[m [34m/[m  
+[35m|[m [34m|[m [1;34m|[m [1;32m|[m * [34m|[m [33me6abe8f[m Merge branch 'Iteration_2_newHttpsBrian' into 'Iteration_2'
+[35m|[m [34m|[m [1;34m|[m [1;32m|[m[1;32m/[m[1;36m|[m [34m|[m 
+[35m|[m [34m|[m [1;34m|[m [1;32m|[m * [34m|[m [33m5937bd9[m added correct empty object
+[35m|[m [34m|[m [1;34m|[m [1;32m|[m * [34m|[m [33mab2923b[m added further testing to updateQuizQuestion.test.ts
+[35m|[m [34m|[m [1;34m|[m [1;32m|[m * [34m|[m [33m4fbda06[m Configured return type of updateQuizQuestion to return question id by spec
+[35m|[m [34m|[m [1;34m|[m [1;32m|[m * [34m|[m [33m09e82c7[m Added to updateQuizQuestion
+[35m|[m [34m|[m [1;34m|[m [1;32m|[m * [34m|[m [33mb462546[m Added HTTP wrapper for updateQuizQuestion
+[35m|[m [34m|[m [1;34m|[m [1;32m|[m * [34m|[m [33m4040505[m Added new HTTP method updateQuizQuestion
+[35m|[m [34m|[m [1;34m|[m * [1;36m|[m [34m|[m [33md3f8ae6[m Merge branch 'It2_quizlistFix' into 'Iteration_2'
+[35m|[m [34m|[m [1;34m|[m[34m/[m[32m|[m [1;36m|[m [34m|[m 
+[35m|[m [34m|[m[34m/[m[1;34m|[m [32m|[m [1;36m|[m [34m|[m 
+[35m|[m [34m|[m [1;34m|[m * [1;36m|[m [34m|[m [33me5da379[m FIxed adminQuizList.test.ts by fixing the way the tests were called as well as a small error in sthe quizlist http method
+[35m|[m * [1;34m|[m [32m|[m [1;36m|[m [34m|[m [33mb734db3[m Fixed notes in test for delete quiz questions
+[35m|[m * [1;34m|[m [32m|[m [1;36m|[m [34m|[m [33m8ea89a8[m Fix conflict
+[35m|[m [32m|[m[1;34m\[m[1;34m|[m [32m|[m [1;36m|[m [34m|[m 
+[35m|[m [32m|[m [1;34m|[m[32m/[m [1;36m/[m [34m/[m  
+[35m|[m [32m|[m[32m/[m[1;34m|[m [1;36m|[m [34m|[m   
+[35m|[m [32m|[m * [1;36m|[m [34m|[m [33md245e36[m Adding test for function delete quiz question
+[35m|[m [32m|[m * [1;36m|[m [34m|[m [33m9c507ba[m modify the test for delete quiz question
+[35m|[m * [34m|[m [1;36m|[m [34m|[m   [33mf0a3a95[m Merge branch 'it2_httpTest_Yutian' into Iteration_2
+[35m|[m [35m|[m[36m\[m [34m\[m [1;36m\[m [34m\[m  
+[35m|[m [35m|[m * [34m|[m [1;36m|[m [34m|[m [33mab4a1a2[m[33m ([m[1;31morigin/it2_httpTest_Yutian[m[33m)[m test function for updateThumbnail complpeted
+[35m|[m [35m|[m * [34m|[m [1;36m|[m [34m|[m [33m7d6dbab[m bug fix
+[35m|[m * [36m|[m [34m|[m [1;36m|[m [34m|[m   [33m78c6877[m Merge branch 'Iteration_2' of nw-syd-gitlab.cseunsw.tech:COMP1531/25t3/groups/F14A_EAGLE/project-backend into Iteration_2
+[35m|[m [36m|[m[1;36m\[m [36m\[m [34m\[m [1;36m\[m [34m\[m  
+[35m|[m [36m|[m [1;36m|[m[36m/[m [34m/[m [1;36m/[m [34m/[m  
+[35m|[m [36m|[m[36m/[m[1;36m|[m [34m|[m [1;36m/[m [34m/[m   
+[35m|[m [36m|[m [1;36m|[m [34m|[m[1;36m/[m [34m/[m    
+[35m|[m [36m|[m [1;36m|[m[1;36m/[m[34m|[m [34m|[m     
+[35m|[m [36m|[m * [34m|[m [34m|[m   [33mc732bf8[m Merge branch 'Iteration_2_brian' into 'Iteration_2'
+[35m|[m [36m|[m [1;33m|[m[1;34m\[m [34m\[m [34m\[m  
+[35m|[m [36m|[m [1;33m|[m * [34m|[m [34m|[m [33mc2dafda[m Configured findSession helper, added defense for empty case, returned correct error
+[35m|[m [36m|[m [1;33m|[m * [34m|[m [34m|[m [33m18c7e36[m Changed clear.test.ts session typing to be string not number
+[35m|[m [36m|[m * [1;34m|[m [34m|[m [34m|[m [33m31fa742[m added test for adminQuizQuestionCreate
+[35m|[m [36m|[m [1;35m|[m[1;34m\[m[1;34m|[m [34m|[m [34m|[m 
+[35m|[m [36m|[m * [1;34m|[m [34m|[m [34m|[m [33mc3b4a9a[m Added tests for adminQuizQuestionCreate, fixed changes
+[35m|[m * [1;36m|[m [1;34m|[m [34m|[m [34m|[m   [33mba05519[m Merge branch 'Iteration_2' of nw-syd-gitlab.cseunsw.tech:COMP1531/25t3/groups/F14A_EAGLE/project-backend into Iteration_2
+[35m|[m [31m|[m[1;34m\[m [1;36m\[m [1;34m\[m [34m\[m [34m\[m  
+[35m|[m [31m|[m [1;34m|[m [1;36m|[m[1;34m/[m [34m/[m [34m/[m  
+[35m|[m [31m|[m [1;34m|[m[1;34m/[m[1;36m|[m [34m|[m [34m|[m   
+[35m|[m [31m|[m * [1;36m|[m [34m|[m [34m|[m   [33m979446b[m Merge branch 'it2_httpTest_Yutian' into 'Iteration_2'
+[35m|[m [31m|[m [1;36m|[m[34m\[m [1;36m\[m [34m\[m [34m\[m  
+[35m|[m [31m|[m [1;36m|[m [34m|[m[1;36m/[m [34m/[m [34m/[m  
+[35m|[m [31m|[m [1;36m|[m[1;36m/[m[34m|[m [34m|[m [34m|[m   
+[35m|[m * [1;36m|[m [34m|[m [34m|[m [34m|[m   [33m814eb5c[m Merge branch 'it2_httpTest_Yutian' into Iteration_2
+[35m|[m [1;36m|[m[34m\[m [1;36m\[m [34m\[m [34m\[m [34m\[m  
+[35m|[m [1;36m|[m [34m|[m[1;36m/[m [34m/[m [34m/[m [34m/[m  
+[35m|[m [1;36m|[m[1;36m/[m[34m|[m [34m/[m [34m/[m [34m/[m   
+[35m|[m [1;36m|[m [34m|[m[34m/[m [34m/[m [34m/[m    
+[35m|[m [1;36m|[m * [34m|[m [34m|[m [33mb427424[m adminQuizRemove test function completed
+[35m|[m [1;36m|[m * [34m|[m [34m|[m [33ma6734fc[m bug fix
+[35m|[m * [36m|[m [34m|[m [34m|[m [33m60b2e79[m Added quizQuestionCreate http wrapper
+[35m|[m * [36m|[m [34m|[m [34m|[m [33mdd33bd0[m[33m ([m[1;31morigin/Iteration_2[m[33m, [m[1;32mIteration_2[m[33m)[m Added quizQuestionCreate function
+[35m|[m [1;31m|[m[36m\[m[36m|[m [34m|[m [34m|[m 
+[35m|[m [1;31m|[m * [34m|[m [34m|[m [33mb5ddc7d[m function test completed
+[35m|[m [1;31m|[m * [34m|[m [34m|[m   [33md22ed5b[m bug fix
+[35m|[m [1;31m|[m [1;33m|[m[1;34m\[m [34m\[m [34m\[m  
+[35m|[m [1;31m|[m [1;33m|[m * [34m|[m [34m|[m [33m6e48cdc[m function test for adminQuizInfo completed
+[35m|[m [1;31m|[m [1;33m|[m * [34m|[m [34m|[m [33m8a72b7d[m bug fix
+[35m|[m [1;31m|[m * [1;34m|[m [34m|[m [34m|[m   [33m51c3a3c[m Debug about merge
+[35m|[m [1;31m|[m [1;35m|[m[34m\[m [1;34m\[m [34m\[m [34m\[m  
+[35m|[m [1;31m|[m [1;35m|[m [34m|[m [1;34m|[m[34m/[m [34m/[m  
+[35m|[m [1;31m|[m [1;35m|[m [34m|[m[34m/[m[1;34m|[m [34m|[m   
+[35m|[m [1;31m|[m [1;35m|[m * [1;34m|[m [34m|[m [33m5fd11eb[m match to Iteraction_2 branch
+[35m|[m [1;31m|[m * [1;36m|[m [1;34m|[m [34m|[m [33m751e8bf[m Organize the server.ts
+[35m|[m [1;31m|[m * [1;36m|[m [1;34m|[m [34m|[m   [33m6474599[m Merge branch 'it2_httpTests_Ian' into 'Iteration_2'
+[35m|[m [1;31m|[m [31m|[m[32m\[m [1;36m\[m [1;34m\[m [34m\[m  
+[35m|[m [1;31m|[m [31m|[m * [1;36m\[m [1;34m\[m [34m\[m   [33mc7235fc[m Merge branch 'Iteration_2' into 'it2_httpTests_Ian'
+[35m|[m [1;31m|[m [31m|[m [33m|[m[31m\[m [1;36m\[m [1;34m\[m [34m\[m  
+[35m|[m [1;31m|[m [31m|[m [33m|[m[31m/[m [1;36m/[m [1;34m/[m [34m/[m  
+[35m|[m [1;31m|[m [31m|[m[31m/[m[33m|[m [1;36m|[m [1;34m|[m [34m|[m   
+[35m|[m [1;31m|[m * [33m|[m [1;36m|[m [1;34m|[m [34m|[m   [33m936fef2[m Arrange the order in server.ts
+[35m|[m [1;31m|[m [1;34m|[m[1;36m\[m [33m\[m [1;36m\[m [1;34m\[m [34m\[m  
+[35m|[m [1;31m|[m [1;34m|[m [1;36m|[m [33m|[m[1;36m/[m [1;34m/[m [34m/[m  
+[35m|[m [1;31m|[m [1;34m|[m [1;36m|[m[1;36m/[m[33m|[m [1;34m/[m [34m/[m   
+[35m|[m [1;31m|[m [1;34m|[m [1;36m|[m[1;34m_[m[33m|[m[1;34m/[m [34m/[m    
+[35m|[m [1;31m|[m [1;34m|[m[1;34m/[m[1;36m|[m [33m|[m [34m|[m     
+[35m|[m [1;31m|[m [1;34m|[m * [33m|[m [34m|[m [33m227186b[m Added delete quiz question function and http method
+[35m|[m [1;31m|[m [1;34m|[m * [33m|[m [34m|[m [33me28cd05[m just need to checkout to Iteration_2
+[35m|[m [1;31m|[m [1;34m|[m [36m|[m * [34m|[m [33mff27f1b[m[33m ([m[1;31morigin/it2_httpTests_Ian[m[33m, [m[1;32mit2_httpTests_Ian[m[33m)[m Added adminUserLogout test, the http wrapper and ensure that it passed all tests. Also finished my server.ts functions and ensured that all of my 3 tests passed. Also added the timelastEdited property
+[35m|[m [1;31m|[m [1;34m|[m [36m|[m[1;34m/[m [34m/[m  
+[35m|[m [1;31m|[m [1;34m|[m[1;34m/[m[36m|[m [34m|[m   
+[35m|[m * [1;34m|[m [36m|[m [34m|[m [33mc0d810e[m Added quizQuestionCreate function
+[35m|[m [1;31m|[m[1;34m\[m[1;34m|[m [36m|[m [34m|[m 
+[35m|[m [1;31m|[m * [36m|[m [34m|[m   [33mcf49e40[m Merge branch 'Iteration_2' of nw-syd-gitlab.cseunsw.tech:COMP1531/25t3/groups/F14A_EAGLE/project-backend into Iteration_2
+[35m|[m [1;31m|[m [1;33m|[m[1;34m\[m [36m\[m [34m\[m  
+[35m|[m [1;31m|[m * [1;34m\[m [36m\[m [34m\[m   [33m6247a67[m Merge branch 'it2_httpTests_Maihan' into Iteration_2
+[35m|[m [1;31m|[m [1;35m|[m[36m\[m [1;34m\[m [36m\[m [34m\[m  
+[35m|[m [1;31m|[m [1;35m|[m [36m|[m [1;34m|[m[36m/[m [34m/[m  
+[35m|[m [1;31m|[m [1;35m|[m [36m|[m[36m/[m[1;34m|[m [34m|[m   
+[35m|[m [1;31m|[m [1;35m|[m * [1;34m|[m [34m|[m [33m71b0242[m Fixed a bug in adminQuizCreate http method
+[35m|[m [1;31m|[m * [1;36m|[m [1;34m|[m [34m|[m [33ma4abc69[m Merge branch 'it2_httpTests_Maihan' into Iteration_2
+[35m|[m [1;31m|[m [31m|[m[1;36m\[m[1;36m|[m [1;34m|[m [34m|[m 
+[35m|[m [1;31m|[m [31m|[m * [1;34m|[m [34m|[m [33m8cf6733[m Fixed import type
+[35m|[m * [31m|[m [32m|[m [1;34m|[m [34m|[m [33m7aec80a[m Added quizQuestionCreate function
+[35m|[m [1;34m|[m [31m|[m[1;34m_[m[32m|[m[1;34m/[m [34m/[m  
+[35m|[m [1;34m|[m[1;34m/[m[31m|[m [32m|[m [34m|[m   
+[35m|[m * [31m|[m [32m|[m [34m|[m [33m5ca8b25[m Rearranged function order
+[35m|[m * [31m|[m [32m|[m [34m|[m [33me3a9017[m Added adminQuizUpdate to http routes
+[35m|[m [33m|[m[31m\[m[31m|[m [32m|[m [34m|[m 
+[35m|[m [33m|[m * [32m|[m [34m|[m   [33mc9ba17b[m Merge branch 'Iteration_2' of nw-syd-gitlab.cseunsw.tech:COMP1531/25t3/groups/F14A_EAGLE/project-backend into Iteration_2
+[35m|[m [33m|[m [32m|[m[36m\[m [32m\[m [34m\[m  
+[35m|[m [33m|[m [32m|[m [36m|[m[32m/[m [34m/[m  
+[35m|[m [33m|[m [32m|[m[32m/[m[36m|[m [34m|[m   
+[35m|[m [33m|[m * [36m|[m [34m|[m [33m5ca1e76[m Added test for create a quiz http method
+[35m|[m [33m|[m * [36m|[m [34m|[m [33m55bcf73[m Arrange the order of http methods
+[35m|[m [33m|[m * [36m|[m [34m|[m   [33m21ec7d8[m Merge branch 'Iteration_2' into 'it2_httpTests_Maihan'
+[35m|[m [33m|[m [1;31m|[m[1;32m\[m [36m\[m [34m\[m  
+[35m|[m [33m|[m * [1;32m|[m [36m|[m [34m|[m [33m8a25bdd[m Debug test for quizdescriptionupdate
+[35m|[m [33m|[m * [1;32m|[m [36m|[m [34m|[m [33m86781b7[m Initally finish the test for quiz description update http method
+[35m|[m [33m|[m * [1;32m|[m [36m|[m [34m|[m [33mab02a46[m Convert adminQuizDescriptionUpdate and adminQuizCreate to tpyescript
+[35m|[m [33m|[m * [1;32m|[m [36m|[m [34m|[m [33m942ea5f[m Adding Update quiz description http method into server.ts
+[35m|[m [33m|[m * [1;32m|[m [36m|[m [34m|[m [33m4a7f969[m Organize server.ts, make it match swagger.yaml
+[35m|[m [33m|[m * [1;32m|[m [36m|[m [34m|[m   [33m4b55bd8[m Initially finished the delete a quiz httpmethod and their test
+[35m|[m [33m|[m [1;33m|[m[1;34m\[m [1;32m\[m [36m\[m [34m\[m  
+[35m|[m [33m|[m [1;33m|[m * [1;32m\[m [36m\[m [34m\[m   [33m18d4efd[m upadte the master
+[35m|[m [33m|[m [1;33m|[m [1;35m|[m[1;36m\[m [1;32m\[m [36m\[m [34m\[m  
+[35m|[m [33m|[m [1;33m|[m * [1;36m|[m [1;32m|[m [36m|[m [34m|[m [33md705210[m[33m ([m[1;31morigin/it2_httpWrapper_Maihan[m[33m)[m Initially completed the first http method
+[35m|[m [33m|[m [1;33m|[m * [1;36m|[m [1;32m|[m [36m|[m [34m|[m [33mc4dd1cd[m add type annotation to variables
+[35m|[m [33m|[m [1;33m|[m * [1;36m|[m [1;32m|[m [36m|[m [34m|[m [33m80b15ed[m delete a test which tests userid is a integer or not
+[35m|[m [33m|[m [1;33m|[m * [1;36m|[m [1;32m|[m [36m|[m [34m|[m [33mf318d97[m Convert adminQuizCreate and adminQuizDescriptionUpdate. Adding a new function into help.ts which is about timestamp. Remove a useless test in the adminQuizDescriptionUpdate.test.js
+[35m|[m [33m|[m [1;33m|[m * [1;36m|[m [1;32m|[m [36m|[m [34m|[m [33m86c9d21[m Optimised helper functions
+[35m|[m [33m|[m [1;33m|[m * [1;36m|[m [1;32m|[m [36m|[m [34m|[m [33mc5a6bc6[m Converted adminAuthRegister, adminUserDetailsUpdate, adminUserPasswordUpdate and the helper functions to ts
+[35m|[m [33m|[m * [1;36m|[m [1;36m|[m [1;32m|[m [36m|[m [34m|[m [33m4faf9c2[m Initially finished the delete a quiz httpmethod and their test
+[35m|[m [33m|[m[35m/[m [1;36m/[m [1;36m/[m [1;32m/[m [36m/[m [34m/[m  
+[35m|[m[35m/[m[33m|[m [1;36m|[m [1;36m|[m [1;32m|[m [36m|[m [34m|[m   
+[35m|[m * [1;36m|[m [1;36m|[m [1;32m|[m [36m|[m [34m|[m [33m757dd88[m Added adminQuizNameUpdate to http routes
+[35m|[m [36m|[m [1;36m|[m[36m_[m[1;36m|[m[36m_[m[1;32m|[m[36m/[m [34m/[m  
+[35m|[m [36m|[m[36m/[m[1;36m|[m [1;36m|[m [1;32m|[m [34m|[m   
+[35m|[m * [1;36m|[m [1;36m|[m [1;32m|[m [34m|[m [33mb6678bd[m Updated ts functions (return types, styling)
+[35m|[m * [1;36m|[m [1;36m|[m [1;32m|[m [34m|[m [33m2adfbdf[m Fixed typescript functions (added types)
+[35m|[m [1;32m|[m [1;36m|[m[1;32m_[m[1;36m|[m[1;32m/[m [34m/[m  
+[35m|[m [1;32m|[m[1;32m/[m[1;36m|[m [1;36m|[m [34m|[m   
+[35m|[m * [1;36m|[m [1;36m|[m [34m|[m [33ma0cd12d[m add user registration and add quizs
+[35m|[m * [1;36m|[m [1;36m|[m [34m|[m [33m950283a[m fixed bug for adminQuizCreate
+[35m|[m * [1;36m|[m [1;36m|[m [34m|[m [33m95e51b5[m rename file extension
+[35m|[m * [1;36m|[m [1;36m|[m [34m|[m [33m9691a0a[m add test function file for quiz
+[35m|[m * [1;36m|[m [1;36m|[m [34m|[m [33m7a3589d[m change export format
+[35m|[m * [1;36m|[m [1;36m|[m [34m|[m [33mfe9ed0f[m Fixed a missing import
+[35m|[m * [1;36m|[m [1;36m|[m [34m|[m   [33m25d9afd[m Merge branch 'iteration2_Ian' into 'Iteration_2'
+[35m|[m [31m|[m[32m\[m [1;36m\[m [1;36m\[m [34m\[m  
+[35m|[m [31m|[m * [1;36m\[m [1;36m\[m [34m\[m   [33m8e2f855[m Merge branch 'Iteration_2' into 'iteration2_Ian'
+[35m|[m [31m|[m [33m|[m[31m\[m [1;36m\[m [1;36m\[m [34m\[m  
+[35m|[m [31m|[m [33m|[m[31m/[m [1;36m/[m [1;36m/[m [34m/[m  
+[35m|[m [31m|[m[31m/[m[33m|[m [1;36m|[m [1;36m|[m [34m|[m   
+[35m|[m * [33m|[m [1;36m|[m [1;36m|[m [34m|[m [33mcdc7011[m[33m ([m[1;31morigin/it2_httpWrapper_Yutian[m[33m)[m add[get]/v1/admin/quiz/:quizid
+[35m|[m * [33m|[m [1;36m|[m [1;36m|[m [34m|[m [33m7ba1ca8[m add function updateThumbnail
+[35m|[m * [33m|[m [1;36m|[m [1;36m|[m [34m|[m [33m25ec0a3[m /v1/admin/quiz/:quizid issue fix
+[35m|[m [34m|[m * [1;36m|[m [1;36m|[m [34m|[m [33m93835a7[m[33m ([m[1;31morigin/iteration2_Ian[m[33m, [m[1;32miteration2_Ian[m[33m)[m Fixed linting issues, converted my (Ian) It1 tests to javascript and fixed some logic in the implementation of some of the auth  http server wrappers
+[35m|[m [34m|[m * [1;36m|[m [1;36m|[m [34m|[m [33m9484323[m Fixed linting issues, converted my (Ian) It1 tests to javascript and fixed some logic in the implementation of some of the auth  http server wrappers
+[35m|[m [34m|[m[34m/[m [1;36m/[m [1;36m/[m [34m/[m  
+[35m|[m * [1;36m|[m [1;36m|[m [34m|[m   [33mc857a64[m bug fix
+[35m|[m [35m|[m[35m\[m [1;36m\[m [1;36m\[m [34m\[m  
+[35m|[m [35m|[m[35m/[m [1;36m/[m [1;36m/[m [34m/[m  
+[35m|[m[35m/[m[35m|[m [1;36m|[m [1;36m|[m [34m|[m   
+* [35m|[m [1;36m|[m [1;36m|[m [34m|[m   [33mf2e83c8[m Merge branch 'it2_httpTest_Brian' into 'master'
+[1;31m|[m[1;32m\[m [35m\[m [1;36m\[m [1;36m\[m [34m\[m  
+[1;31m|[m * [35m|[m [1;36m|[m [1;36m|[m [34m|[m [33mb66f54f[m Modifications to server.ts
+[1;31m|[m * [35m|[m [1;36m|[m [1;36m|[m [34m|[m [33m6ce88bf[m Added http wrapper test for adminUserDetails
+[1;31m|[m * [35m|[m [1;36m|[m [1;36m|[m [34m|[m [33m58b0087[m Converted clear test js to account for http wrapper, also converted to ts
+[1;31m|[m * [35m|[m [1;36m|[m [1;36m|[m [34m|[m [33me477ef0[m Added Routes to server.ts
+* [1;32m|[m [35m|[m [1;36m|[m [1;36m|[m [34m|[m   [33m712aa29[m Merge branch 'it2_fixquizfile_Maihan' into 'master'
+[1;32m|[m[1;34m\[m [1;32m\[m [35m\[m [1;36m\[m [1;36m\[m [34m\[m  
+[1;32m|[m [1;34m|[m[1;32m/[m [35m/[m [1;36m/[m [1;36m/[m [34m/[m  
+[1;32m|[m[1;32m/[m[1;34m|[m [35m|[m [1;36m|[m [1;36m|[m [34m|[m   
+[1;32m|[m * [35m|[m [1;36m|[m [1;36m|[m [34m|[m [33m70449d6[m Adding session into quiz.ts and auth.ts, Adding creatorId into data
+[1;32m|[m[1;32m/[m [35m/[m [1;36m/[m [1;36m/[m [34m/[m  
+[1;32m|[m * [1;36m|[m [1;36m|[m [34m|[m [33m5023a13[m bug fix
+[1;32m|[m * [1;36m|[m [1;36m|[m [34m|[m [33m73a137d[m [delete]/v1/admin/quiz/:quizid
+[1;32m|[m * [1;36m|[m [1;36m|[m [34m|[m [33m0f48b34[m works
+[1;32m|[m[1;32m/[m [1;36m/[m [1;36m/[m [34m/[m  
+* [1;36m|[m [1;36m|[m [34m|[m   [33me974bf0[m Merge branch 'typescriptConversion' into 'master'
+[1;36m|[m[1;36m\[m [1;36m\[m [1;36m\[m [34m\[m  
+[1;36m|[m [1;36m|[m[1;36m_[m[1;36m|[m[1;36m/[m [34m/[m  
+[1;36m|[m[1;36m/[m[1;36m|[m [1;36m|[m [34m|[m   
+[1;36m|[m * [1;36m|[m [34m|[m [33me3e4621[m[33m ([m[1;32mtypescriptConversion[m[33m)[m Converted the functions to typescript
+[1;36m|[m * [1;36m|[m [34m|[m [33m601a7f6[m Fixed some style issues
+[1;36m|[m * [1;36m|[m [34m|[m [33m7809d21[m Fixed linting manually for allocated functions
+[1;36m|[m * [1;36m|[m [34m|[m [33mbf95ef8[m Migrated adminQuizList to TS
+[1;36m|[m * [1;36m|[m [34m|[m [33mf430b56[m Migrated Clear function to TS
+[1;36m|[m * [1;36m|[m [34m|[m [33mf98c0b4[m Migrated adminUserDetails to TS
+[1;36m|[m * [1;36m|[m [34m|[m [33m0ea99bc[m add type annotation to variables
+[1;36m|[m * [1;36m|[m [34m|[m [33m1ff6e66[m delete a test which tests userid is a integer or not
+[1;36m|[m * [1;36m|[m [34m|[m [33meb26c2a[m Convert adminQuizCreate and adminQuizDescriptionUpdate. Adding a new function into help.ts which is about timestamp. Remove a useless test in the adminQuizDescriptionUpdate.test.js
+[1;36m|[m * [1;36m|[m [34m|[m [33me5fcbe5[m Optimised helper functions
+[1;36m|[m * [1;36m|[m [34m|[m [33m9d975e3[m Converted adminAuthRegister, adminUserDetailsUpdate, adminUserPasswordUpdate and the helper functions to ts
+[1;36m|[m[1;36m/[m [1;36m/[m [34m/[m  
+* [1;36m|[m [34m|[m   [33mb1fb77b[m Merge branch 'editData' into 'master'
+[31m|[m[32m\[m [1;36m\[m [34m\[m  
+[31m|[m * [1;36m|[m [34m|[m [33md8dad36[m[33m ([m[1;31morigin/editData[m[33m, [m[1;32meditData[m[33m)[m Modified the data struct
+[31m|[m * [1;36m|[m [34m|[m [33m4636547[m Created tests for my 3 http functions
+[31m|[m[31m/[m [1;36m/[m [34m/[m  
+* [1;36m|[m [34m|[m   [33m395ace4[m Merge branch 'it2_httpTestFiles' into 'master'
+[33m|[m[34m\[m [1;36m\[m [34m\[m  
+[33m|[m * [1;36m|[m [34m|[m [33mdbf686c[m[33m ([m[1;31morigin/it2_httpTestFiles[m[33m, [m[1;32mit2_httpTestFiles[m[33m)[m Added linting and typechecking to the pipeline
+[33m|[m * [1;36m|[m [34m|[m [33md6e10c4[m Fixed error in folder structure
+[33m|[m * [1;36m|[m [34m|[m [33md123ce5[m fixed error in adminQuizInfo.test.js which would cause pipeline to fail
+[33m|[m * [1;36m|[m [34m|[m [33m09d69b6[m Added folders for others to create jest test files for http wrappers
+[33m|[m [1;36m|[m[1;36m/[m [34m/[m  
+* [1;36m|[m [34m|[m   [33md44f28c[m Merge updated starter code into 'master' branch. See MR for details.
+[1;36m|[m[36m\[m [1;36m\[m [34m\[m  
+[1;36m|[m [36m|[m[1;36m/[m [34m/[m  
+[1;36m|[m[1;36m/[m[36m|[m [34m|[m   
+[1;36m|[m * [34m|[m [33m337c344[m[33m ([m[1;31morigin/update-cfc69c7cb6221bffaa20018073b6b027ef5fed17[m[33m)[m Task update cfc69c7cb6221bffaa20018073b6b027ef5fed17
+[1;36m|[m [34m|[m[34m/[m  
+[1;36m|[m * [33mcfc69c7[m Remove camelCase requirement from ESlint configuration file
+* [36m|[m   [33m1b715c9[m Merge branch 'fixEthereumAddress' into 'master'
+[1;31m|[m[1;32m\[m [36m\[m  
+[1;31m|[m * [36m\[m   [33m901ee81[m Merge branch 'master' into 'fixEthereumAddress'
+[1;31m|[m [1;33m|[m[1;31m\[m [36m\[m  
+[1;31m|[m [1;33m|[m[1;31m/[m [36m/[m  
+[1;31m|[m[1;31m/[m[1;33m|[m [36m|[m   
+* [1;33m|[m [36m|[m   [33m5326f06[m Merge branch 'quiz|adminQuizInfo|bugFix' into 'master'
+[1;35m|[m[1;36m\[m [1;33m\[m [36m\[m  
+[1;35m|[m * [1;33m|[m [36m|[m [33mbfe2f81[m[33m ([m[1;31morigin/quiz|adminQuizInfo|bugFix[m[33m)[m adminQuizInfo bug fix
+[1;35m|[m[1;35m/[m [1;33m/[m [36m/[m  
+[1;35m|[m * [36m/[m [33m6834af0[m[33m ([m[1;31morigin/fixEthereumAddress[m[33m)[m Removed the import isEthereumAddress which would break the jest tests
+[1;35m|[m[1;35m/[m [36m/[m  
+* [36m|[m   [33mcec142a[m[33m ([m[1;32mit2_fixValidator[m[33m)[m Merge branch 'Yutian-individualReflection' into 'master'
+[31m|[m[32m\[m [36m\[m  
+[31m|[m * [36m|[m [33m987b90c[m individual reflection completed
+[31m|[m[31m/[m [36m/[m  
+* [36m|[m   [33m3789bc3[m Merge branch 'iter1/reflection/z5688474' into 'master'
+[33m|[m[34m\[m [36m\[m  
+[33m|[m * [36m|[m [33mad00234[m Wrote individual reflection for iteration 1
+* [34m|[m [36m|[m   [33mb8873a0[m Merge branch 'iter1/refection/z5609448' into 'master'
+[34m|[m[36m\[m [34m\[m [36m\[m  
+[34m|[m [36m|[m[34m/[m [36m/[m  
+[34m|[m[34m/[m[36m|[m [36m|[m   
+[34m|[m * [36m|[m [33m9e1a62e[m Finished my individual reflection for iter1
+* [36m|[m [36m|[m   [33meff2f09[m Merge branch 'iteration1/reflection/brian' into 'master'
+[36m|[m[1;32m\[m [36m\[m [36m\[m  
+[36m|[m [1;32m|[m[36m/[m [36m/[m  
+[36m|[m[36m/[m[1;32m|[m [36m|[m   
+[36m|[m * [36m|[m [33mc1936b8[m Reflection statement individual
+[36m|[m[36m/[m [36m/[m  
+* [36m|[m   [33m6c2f4bd[m Merge branch 'It1_reflection' into 'master'
+[1;33m|[m[1;34m\[m [36m\[m  
+[1;33m|[m * [36m|[m [33mc5e8505[m[33m ([m[1;31morigin/It1_reflection[m[33m, [m[1;32mIt1_reflection[m[33m)[m It1 completed the group reflection as well as my individual reflection
+[1;33m|[m[1;33m/[m [36m/[m  
+* [36m|[m   [33m8b25aa3[m Merge branch 'update-432c7a4da088f717e1d02f03d05d16a861b4f4db' into 'master'
+[1;35m|[m[1;36m\[m [36m\[m  
+[1;35m|[m * [36m\[m   [33mdfcaaec[m[33m ([m[1;31morigin/update-432c7a4da088f717e1d02f03d05d16a861b4f4db[m[33m)[m Merge branch 'master' into 'update-432c7a4da088f717e1d02f03d05d16a861b4f4db'
+[1;35m|[m [31m|[m[1;35m\[m [36m\[m  
+[1;35m|[m [31m|[m[1;35m/[m [36m/[m  
+[1;35m|[m[1;35m/[m[31m|[m [36m|[m   
+* [31m|[m [36m|[m   [33m9195aa1[m[33m ([m[1;31morigin/iteration1-submission[m[33m, [m[1;31morigin/iter1-submission[m[33m)[m Merge branch 'adminQuizCreate' into 'master'
+[33m|[m[34m\[m [31m\[m [36m\[m  
+[33m|[m * [31m|[m [36m|[m [33mc48cbee[m Fixed white box test to black box test in adminQuizDescriptionUpdate
+[33m|[m * [31m|[m [36m|[m [33m24c71e5[m Remove getData import
+[33m|[m * [31m|[m [36m|[m [33me86bf41[m Fixed white box test to black box in adminQuizCreate
+* [34m|[m [31m|[m [36m|[m   [33md13182f[m Merge branch 'testBranch' into 'master'
+[35m|[m[36m\[m [34m\[m [31m\[m [36m\[m  
+[35m|[m * [34m|[m [31m|[m [36m|[m [33mc0652a6[m Split tests into describe blocks
+* [36m|[m [34m|[m [31m|[m [36m|[m   [33m99bbc27[m Merge branch 'adminQuizInfo' into 'master'
+[34m|[m[1;32m\[m [36m\[m [34m\[m [31m\[m [36m\[m  
+[34m|[m [1;32m|[m[34m_[m[36m|[m[34m/[m [31m/[m [36m/[m  
+[34m|[m[34m/[m[1;32m|[m [36m|[m [31m|[m [36m|[m   
+[34m|[m * [36m|[m [31m|[m [36m|[m [33m4aee7da[m[33m ([m[1;31morigin/adminQuizInfo[m[33m)[m function adminQuizInfo bug fix
+[34m|[m[34m/[m [36m/[m [31m/[m [36m/[m  
+* [36m|[m [31m|[m [36m|[m   [33m0164285[m Merge branch 'it_1_adminQuizInfo.test_max' into 'master'
+[1;33m|[m[1;34m\[m [36m\[m [31m\[m [36m\[m  
+[1;33m|[m * [36m|[m [31m|[m [36m|[m [33mcd4c897[m added adminQuizInfo test and fixed adminQuizCreate function
+[1;33m|[m[1;33m/[m [36m/[m [31m/[m [36m/[m  
+* [36m|[m [31m|[m [36m|[m   [33mf912803[m Merge branch 'adminQuizNameUpdate' into 'master'
+[36m|[m[1;36m\[m [36m\[m [31m\[m [36m\[m  
+[36m|[m [1;36m|[m[36m/[m [31m/[m [36m/[m  
+[36m|[m[36m/[m[1;36m|[m [31m|[m [36m|[m   
+[36m|[m * [31m|[m [36m|[m [33mc3feb15[m Removed whitebox testing features
+* [1;36m|[m [31m|[m [36m|[m   [33m8f5e815[m Merge branch 'Clear' into 'master'
+[31m|[m[32m\[m [1;36m\[m [31m\[m [36m\[m  
+[31m|[m * [1;36m|[m [31m|[m [36m|[m [33md2a936c[m Iteration 1 | Clear | Brian
+* [32m|[m [1;36m|[m [31m|[m [36m|[m   [33md104b40[m Merge branch 'adminQuizRemove-test' into 'master'
+[32m|[m[34m\[m [32m\[m [1;36m\[m [31m\[m [36m\[m  
+[32m|[m [34m|[m[32m/[m [1;36m/[m [31m/[m [36m/[m  
+[32m|[m[32m/[m[34m|[m [1;36m|[m [31m|[m [36m|[m   
+[32m|[m * [1;36m|[m [31m|[m [36m|[m   [33mbc27285[m[33m ([m[1;31morigin/adminQuizRemove-test[m[33m)[m Merge branch 'master' into 'adminQuizRemove-test'
+[32m|[m [35m|[m[32m\[m [1;36m\[m [31m\[m [36m\[m  
+[32m|[m [35m|[m[32m/[m [1;36m/[m [31m/[m [36m/[m  
+[32m|[m[32m/[m[35m|[m [1;36m|[m [31m|[m [36m|[m   
+* [35m|[m [1;36m|[m [31m|[m [36m|[m   [33mbcc00b7[m Merge branch 'adminQuizNameUpdate' into 'master'
+[1;31m|[m[1;36m\[m [35m\[m [1;36m\[m [31m\[m [36m\[m  
+[1;31m|[m [1;36m|[m [35m|[m[1;36m/[m [31m/[m [36m/[m  
+[1;31m|[m [1;36m|[m[1;36m/[m[35m|[m [31m|[m [36m|[m   
+[1;31m|[m * [35m|[m [31m|[m [36m|[m [33m768392e[m Added adminQuizNameUpdate function and adminQuizNameUpdate.test.js
+[1;31m|[m[1;31m/[m [35m/[m [31m/[m [36m/[m  
+* [35m|[m [31m|[m [36m|[m   [33m1dfeef8[m Merge branch 'adminAuthLogin-final' into 'master'
+[1;33m|[m[1;34m\[m [35m\[m [31m\[m [36m\[m  
+[1;33m|[m * [35m|[m [31m|[m [36m|[m [33m7488a1f[m fixed adminAuthLogin (was accidentally user.id instead of user.userId)
+[1;33m|[m[1;33m/[m [35m/[m [31m/[m [36m/[m  
+* [35m|[m [31m|[m [36m|[m   [33m5394b73[m Merge branch 'fixing_adminUserPasswordUpdate' into 'master'
+[1;35m|[m[1;36m\[m [35m\[m [31m\[m [36m\[m  
+[1;35m|[m * [35m|[m [31m|[m [36m|[m [33m96d49cf[m[33m ([m[1;31morigin/fixing_adminUserPasswordUpdate[m[33m, [m[1;32mfixing_adminUserPasswordUpdate[m[33m)[m Fixed an error in my adminUserPasswordUpdate function where if the validUserId returned unauthorised, I was accessing the error message with the wrong key, causing it to be undefined and failing the expected output for the the invaliduserId test
+[1;35m|[m[1;35m/[m [35m/[m [31m/[m [36m/[m  
+* [35m|[m [31m|[m [36m|[m   [33m8406793[m Merge branch 'adminQuizList' into 'master'
+[31m|[m[32m\[m [35m\[m [31m\[m [36m\[m  
+[31m|[m * [35m|[m [31m|[m [36m|[m [33m403a84f[m Removed skip from AdminQuizList.test.js
+* [32m|[m [35m|[m [31m|[m [36m|[m   [33m729db34[m Merge branch 'smallAdds' into 'master'
+[32m|[m[34m\[m [32m\[m [35m\[m [31m\[m [36m\[m  
+[32m|[m [34m|[m[32m/[m [35m/[m [31m/[m [36m/[m  
+[32m|[m[32m/[m[34m|[m [35m|[m [31m|[m [36m|[m   
+[32m|[m * [35m|[m [31m|[m [36m|[m [33mf67eb65[m Register Test User helper function added in helper.js
+[32m|[m * [35m|[m [31m|[m [36m|[m [33ma125a15[m added validQuizId to exports
+[32m|[m[32m/[m [35m/[m [31m/[m [36m/[m  
+* [35m|[m [31m|[m [36m|[m   [33mb74af23[m Merge branch 'adminQuizCreate' into 'master'
+[35m|[m[36m\[m [35m\[m [31m\[m [36m\[m  
+[35m|[m * [35m|[m [31m|[m [36m|[m [33m53188b4[m Fixed adminQuizCreate, make it satisfy adminQuizRemove
+[35m|[m[35m/[m [35m/[m [31m/[m [36m/[m  
+* [35m|[m [31m|[m [36m|[m   [33mb0f3686[m Merge branch 'helper2' into 'master'
+[1;31m|[m[1;32m\[m [35m\[m [31m\[m [36m\[m  
+[1;31m|[m * [35m|[m [31m|[m [36m|[m [33m68c1bee[m Fixed numXPassword/Logins incrementor in adminUserDetails
+[1;31m|[m * [35m|[m [31m|[m [36m|[m [33m6892cf9[m Fixed skip condition to clear.test.js file
+[1;31m|[m[1;31m/[m [35m/[m [31m/[m [36m/[m  
+* [35m|[m [31m|[m [36m|[m   [33m271e209[m Merge branch 'adminQuizRemove' into 'master'
+[1;33m|[m[1;34m\[m [35m\[m [31m\[m [36m\[m  
+* [1;34m\[m [35m\[m [31m\[m [36m\[m   [33m66af27b[m Merge branch 'adminQuizCreate' into 'master'
+[1;35m|[m[1;36m\[m [1;34m\[m [35m\[m [31m\[m [36m\[m  
+[1;35m|[m * [1;34m|[m [35m|[m [31m|[m [36m|[m [33m2601214[m Fixed id generation
+[1;35m|[m * [1;34m|[m [35m|[m [31m|[m [36m|[m   [33m2cd5839[m Merge branch 'adminQuizCreate' of nw-syd-gitlab.cseunsw.tech:COMP1531/25t3/groups/F14A_EAGLE/project-backend into adminQuizCreate
+[1;35m|[m [31m|[m[32m\[m [1;34m\[m [35m\[m [31m\[m [36m\[m  
+[1;35m|[m * [32m|[m [1;34m|[m [35m|[m [31m|[m [36m|[m [33m43c6449[m Added adminQuizCreate function
+[1;35m|[m [32m|[m [32m|[m [1;34m|[m * [31m|[m [36m|[m [33m3e2fed9[m test for function adminQuizRemove
+[1;35m|[m [32m|[m [32m|[m [1;34m|[m * [31m|[m [36m|[m [33mfd2cf46[m function adminQuizRemove bug fix
+[1;35m|[m [32m|[m [32m|[m [1;34m|[m * [31m|[m [36m|[m [33m5833341[m exported function validQuizId
+[1;35m|[m [32m|[m [32m|[m [1;34m|[m * [31m|[m [36m|[m [33mbd47308[m[33m ([m[1;31morigin/iteration2-start[m[33m)[m function adminQuizRemove bug fix
+[1;35m|[m [32m|[m [32m|[m [1;34m|[m[1;34m/[m [31m/[m [36m/[m  
+[1;35m|[m [32m|[m [32m|[m * [31m|[m [36m|[m [33m9dc58fa[m[33m ([m[1;31morigin/adminQuizRemove[m[33m)[m delete empty folder
+[1;35m|[m [32m|[m [32m|[m * [31m|[m [36m|[m [33m25ecccc[m completed function adminQuizRemove
+[1;35m|[m [32m|[m [32m|[m * [31m|[m [36m|[m [33m0ac5db9[m add a helper function validQuizId
+[1;35m|[m [32m|[m[1;35m_[m[32m|[m[1;35m/[m [31m/[m [36m/[m  
+[1;35m|[m[1;35m/[m[32m|[m [32m|[m [31m|[m [36m|[m   
