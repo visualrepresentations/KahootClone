@@ -3,7 +3,7 @@ Questionably-named quiz tool that allows admins to create quiz games, and player
 
 Toohak is a RESTful backend that supports an online quiz platform. Admins can register and log in. Each successful login creates a session identifier, which must be sent in the request headers for all protected routes. Every request checks that session, updates its last-used timestamp, and rejects it if it’s invalid or expired. 
 
-Toohak supports administrator authentication via session-based login, rather than cookies or tokens. Users can register, log in, and log out, with each successful login generating a session identifier that must be supplied in HTTP headers for all protected routes. Sessions are validated on every request and updated with last-access timestamps to simulate expiry behaviour.
+Toohak supports administrator authentication via session-based login. Users can register, log in, and log out, with each successful login generating a session identifier that must be supplied in HTTP headers for all protected routes. Sessions are validated on every request and updated with last-access timestamps to simulate expiry behaviour.
 
 Authenticated admins can create and manage quizzes that they own. This includes:
 Creating quizzes with metadata (name, description)
